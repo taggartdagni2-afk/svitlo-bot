@@ -8,7 +8,7 @@ let deviceId = null;
 
 // Авторизація в eWeLink
 async function login() {
-  const response = await axios.post("https://eu-api.coolkit.cc:8080/api/user/login", {
+  const response = await axios.post("https://api.coolkit.cc:8080/api/user/login", {
     email: EMAIL,
     password: PASSWORD,
     version: "8",
